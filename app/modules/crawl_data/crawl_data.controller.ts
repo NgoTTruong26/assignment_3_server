@@ -3,7 +3,7 @@ import CrawlDataService from './crawl_data.service.js'
 
 @inject()
 export default class CrawlDataController {
-  private _initBlock = 43767350
+  private _initBlock = 43797445
   private _stepBlock = 1000
 
   constructor(private crawlDataService: CrawlDataService) {}
